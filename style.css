@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(89, 247, 247);
+    font-family: Helvetica, Times, serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+ul{
+    
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: rgb(188, 250, 250);
+}
+
