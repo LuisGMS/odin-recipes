@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(89, 247, 247);
+    background-color: rgb(75, 179, 179);
     font-family: Helvetica, Times, serif;
 }
 
@@ -7,17 +7,38 @@ h1{
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+    background-color: rgb(237, 247, 150);
+    margin: 5% 25% 5% 25%;
+    padding: 2px;
 }
 
+
+
 ul{
-    
+    margin:auto 20% auto 20%;
     font-size: 40px;
     color: rgb(0, 0, 0);
+    list-style-type: none;
+    padding-left: 0%;
 }
 
 li a{
-    text-decoration: none;
+    margin: auto auto auto auto;
     color: rgb(0, 0, 0);
-    background-color: rgb(188, 250, 250);
+    background-color: rgb(197, 206, 122);
+    margin-bottom: 8px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 4px;
 }
 
+.paper{
+    background-color: rgb(219, 228, 189);
+    margin: 0px 20%;
+    padding-top: 2%;
+    padding-bottom: 22%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
