@@ -7,7 +7,6 @@ body{
 img{
     width: 400px;
     height: auto;
-    padding-left: 40%;
     
 }
 
@@ -15,6 +14,10 @@ h1{
     text-align: center;
     font-size: 60px;
     font-weight: bold;
+}
+
+h2{
+    margin: 0px 0px;
 }
 
 ul{
@@ -29,3 +32,35 @@ li a{
     background-color: rgb(188, 250, 250);
 }
 
+
+.paper{
+    background-color: rgb(219, 228, 189);
+    margin: 0px 20%;
+    padding-top: 2%;
+    padding-bottom: 22%;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+.topPage{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.sideL{
+    display: inline-block;
+    margin-left: 10%;
+    height: 400px;
+}
+
+.sideR{
+    display: inline-block;
+}
+
+.bottomPage{
+    margin:5%;
+    width: 90%;
+}
